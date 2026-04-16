@@ -5,9 +5,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class Student {
 
-    private int studentId = 31488;
-    private String name = "sohan";
-    private String course = "AI";
+    private int studentId = 102;
+    private String name = "Rahul";
+    private String course = "CSE";
     private int year = 2;
 
     public Student() {}
@@ -28,10 +28,7 @@ public class Student {
     }
 
     public void display() {
-        System.out.println("ID: " + studentId);
-        System.out.println("Name: " + name);
-        System.out.println("Course: " + course);
-        System.out.println("Year: " + year);
+        System.out.println(studentId + " " + name + " " + course + " " + year);
     }
 }
 

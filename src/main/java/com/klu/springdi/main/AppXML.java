@@ -12,7 +12,7 @@ public class AppXML {
         ApplicationContext context =
                 new ClassPathXmlApplicationContext("applicationContext.xml");
 
-        Student s1 = (Student) context.getBean("student1");
+        Student s1 = (Student) context.getBean("student");
 
         s1.display();
 
